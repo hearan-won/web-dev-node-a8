@@ -24,5 +24,5 @@ require('./services/movies-service')(app);
 require('./services/tweeter-service')(app);
 require('./services/profile-service')(app);
 
-app.listen(process.env.port || 4000);
+app.listen(process.env.PORT);
 
